@@ -1,0 +1,252 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+.main{
+    width: 100vw;
+    min-height: 100vh;
+    /* background-color: aqua; */
+    box-sizing: border-box;
+}
+
+.nav{
+    height: 10vh;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 70px;
+    padding-right: 90px;
+    box-sizing: border-box;
+    position: fixed;
+    box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.75);
+}
+
+.nav span{
+    font-size: 25px;
+}
+
+.nav ul{
+    display: flex;
+    gap: 70px;
+}
+
+.nav ul li{
+    list-style-type: none;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: 700;
+}
+.nav ul li a:hover{
+    color: blue;
+}
+
+.intro{
+    height: 100vh;
+    width: 100vw;
+    /* background-color: blueviolet; */
+    display: flex;
+}
+.about,.services{
+    /* background-color: brown; */
+    height: 100vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+}
+.services{
+    height: 80vh;
+}
+.follow{
+    height: fit-content;
+        width: 100vw;
+}
+
+.intro_left{
+    height: 100vh;
+    width: 60vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 80px;
+    gap: 20px;
+}
+
+.intro_right{
+    background-image: url("./ediie.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+        height: 100vh;
+        width: 40vw;
+}
+.hello{
+    font-size: 30px;
+    font-weight: 500;
+}
+.name{
+    font-size: 80px;
+    font-weight: 900;
+}
+.tec{
+    font-size: 20px;
+}
+
+.button{
+    background-color: rgb(31, 31, 255);
+    display: inline;
+    width: fit-content;
+    color: white;
+    font-size: 20px;
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+.button:hover{
+    background-color: rgb(0, 0, 118);
+}
+.header{
+    height: 26vh;
+        width: 100vw;
+        /* background-color: burlywood; */
+        padding-top: 5px;
+        padding-bottom: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+}
+.header p{
+    text-align: center;
+}
+
+.header_p{
+    font-size: 35px;
+    font-weight: 800;
+}
+.header_int{
+    color: green;
+}
+
+.content,.services_content{
+    width: 100vw;
+    /* background-color: chartreuse; */
+    height: 100%;
+    display: flex;
+}
+.services_content{
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+.content_left{
+    height: 100%;
+    width: 40vw;
+    /* background-color: darkgreen; */
+}
+
+.content_left img{
+    height: auto;
+        width: 40vw;
+        margin-top: 18vh;
+}
+
+.content_right{
+    font-size: 20px;
+    box-sizing: border-box;
+    height: 100%;
+    width: 60vw;
+    /* background-color: indianred; */
+    padding-right: 150px;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.content_right i{
+    margin-right: 12px;
+}
+.card{
+    height: 150px;
+    width: 250px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 18px;
+    border-radius: 12px;
+    cursor: pointer;
+    /*  */
+}
+.card:hover{
+    background-color: #1f1fff;
+    color: white;
+    border-color: #1f1fff;
+}
+
+.services_content .card i{
+    font-size: 50px;
+}
+.services_content .card .title{
+        font-size: 20px;
+            font-weight: 800;
+}
+
+.follow_content{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding-bottom: 15px;
+    padding-top: 25px;
+    
+}
+.follow_content i{
+    font-size: 30px;
+    cursor: pointer;
+}
+.follow_content i:hover{
+    color: crimson;
+
+}
+.follow_content a{
+    color: black;
+}
+.footer{
+    height: 10vh;
+    width: 100vw;
+    background-color: #1f1fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.contact_content{
+    height: 50vh;
+    display: flex;
+        flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+}
+.input_text{
+        width: 70vw;
+            height: 4vh;
+            padding: 5px;
+            font-size: 20px;
+            border-radius: 5px;
+            background-color: rgba(163, 163, 163,0.5);
+            border: none;
+}
+
+
